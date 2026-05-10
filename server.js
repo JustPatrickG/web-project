@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use('/', createProxyMiddleware({
-  target: 'https://deadshot.io',
+  target: 'https://silvergames.com',
   changeOrigin: true,
   ws: true,
   on: {
